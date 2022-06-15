@@ -1,0 +1,61 @@
+#content{       /* this is the id applied to the csssgrid that is housing all the elements of my site" */
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 14px;
+border-color: black;
+grid-template-areas:   /*grid-template-areas property is supposed to list the different sections within the cssgrid that way the content shows up appropriately in the grid. */
+"header" /* here the sections are listed underneath the property */
+"aside"
+"main"
+}
+
+header {
+  position: absolute;
+  width: 679px;
+  height: 71px;
+  left: 72px;
+  top: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 59px;
+  line-height: 71px;
+  color: #000000;
+
+}
+
+h3{
+  position: absolute;
+  width: 369px;
+  height: 38px;
+  left: 585.55px;
+  top: 220px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.0597px;
+  line-height: 38px;
+  /* identical to box height */
+}
+main{
+
+
+
+color: #000000;
+}
+
+#design{   /* to add positioning properties, go to figma's inspect panel and copy what it says under css code, and move accordingly in devtools */
+  position: absolute;
+  width: 312px;
+  height: 318.76px;
+  left: 174px;
+  top: 390px;
+
+}
+lottie-player{
+  border-color: blue;
+  border-radius: 45%;
+
+}
